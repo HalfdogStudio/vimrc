@@ -125,7 +125,7 @@ nnoremap <silent> <leader>b :nohlsearch<CR>
 
 " http://www.vim.org/scripts/script.php?script_id=2572
 " <Leader>a will open a prmompt for a term to search for
-noremap <leader>a :Ack 
+noremap <leader>a :Ack
 
 " <Leader>A will close the new window created for that ack search
 noremap <leader>A <C-w>j<C-w>c<C-w>l
@@ -176,22 +176,22 @@ nnoremap <Leader>gs :Gstatus<CR>
 nnoremap <Leader>gr :Gremove<CR>
 nnoremap <Leader>gl :Glog<CR>
 nnoremap <Leader>gb :Gblame<CR>
-nnoremap <Leader>gm :Gmove 
-nnoremap <Leader>gp :Ggrep 
+nnoremap <Leader>gm :Gmove
+nnoremap <Leader>gp :Ggrep
 nnoremap <Leader>gR :Gread<CR>
-nnoremap <Leader>gg :Git 
+nnoremap <Leader>gg :Git
 nnoremap <Leader>gd :Gdiff<CR>
 
 
 "------  Text Editing Utilities  ------
 " <Leader>T = Delete all Trailing space in file
-map <Leader>T :%s/\s\+$//<CR>
+noremap <Leader>T :%s/\s\+$//<CR>
 
 " <Leader>U = Deletes Unwanted empty lines
-map <Leader>U :g/^$/d<CR>
+noremap <Leader>U :g/^$/d<CR>
 
 " <Leader>R = Converts tabs to spaces in document
-map <Leader>R :retab<CR>
+noremap <Leader>R :retab<CR>
 
 
 "------  JSON Filetype Settings  ------
