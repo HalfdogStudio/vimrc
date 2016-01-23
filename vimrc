@@ -140,7 +140,7 @@ let g:ctrlp_custom_ignore = '\v[\/](node_modules|coverage|target|dist)|(\.(swp|i
 
 "type S, then type what you're looking for, a /, and what to replace it with
 nmap S :%s//g<LEFT><LEFT>
-vmap S :s//g<LEFT><LEFT>
+vnoremap S :s//g<LEFT><LEFT>
 
 
 "------  NERDTree Options  ------
